@@ -1,201 +1,104 @@
+Skip to content
 
+
+AI
+
+
+
+
+Saina's Website
+
+
+
+Upgrade
+
+
+
+Publish
+
+Files
+
+
+
+Commands
+Search
+Config files
 /* STYLE SECTIONING TAGS */
-* { /* Reset the space of the webpage */
-   margin: 0px;
-   padding: 0px;
-   font-family: "Bree Serif", serif;
-   font-style: normal;
+
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
+/* other color #f51 */
 
-
-/* STYLE TEXT */
-
-p{
-   padding-bottom: 1.5em;
-   color:black;
-}
-
-#title{
-   font-size: 7em;
-   padding-bottom: 100px;
-   color:white;
-}
-
-
-.flex-container {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 7em;
-  align-items: center;
-  align-content: flex-start;
-  padding: 2em;
-}
-
-
-li {
-  text-decoration: none;
-  color: black;
-  font-size: 1.5em;
-  padding: 0.5em;
-  justify-content: space-between;
-}
-
-footer {
-  text-align: center;
-  margin-top: 2em;
-  padding-top: 2em;
-  padding-bottom: 0.5em;
-  background-color:#f7be55;
-}
-
- div{
- color: black;
-
- }
-
- h1{
- text-align: center;
- }
-
-h2{
-   padding-top: 0.5em;
-   padding-bottom: 0.5em;
-}
-
-main{
-   margin-left: 5%;
-   margin-right: 5%;
-}
-
- body{
-
- background-color: #ffce80;
- font-family: "Bree Serif", serif;
- font-style: normal;
- } 
-
-#qualities{
-   margin-top: 1em;
-   margin-bottom: 1em;
-   border: 50px;
-   border-color: black;
-   border-style: solid;
-   padding-right: 10%;
-   padding-left: 10%;
-   border-block-start-color:orange;
-   border-block-end-color:orange;
+body {
+ background-color: 
+#f0eddb;
+  justify-content: space-between
 }
 
 header{
-   padding: 2em;
-   margin-bottom: 1.5em;
-   background-image: url(https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-asian-sumatran-tigers/disney-animals-asian-sumatran-tigers-00.jpg?1658996208764);
-
-}
-button{
-   background-color: orange;
-   border-radius: 25px;
-   border: 2px solid black;
-   height: 80px;
-   width: 200px;
-   font-size: 1.25em;
-   margin-bottom: 1em;
-}
-
-button:click{
-  background-color: #b3dfb3;
-}
-
-button:hover{
-   background-color:  #ffce80;
-}
-
-img{
-   height: 240px;
-   width: 320px;
-}
-
-.flex-box {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 2em;
-  align-items: center;
-  align-content: flex-start;
-  padding: 2em;
-}
-
-.getFact{
-   margin-top: 2em;
-   margin-bottom: 1em;
-   border: 50px;
-   border-color: orange;
-   border-style: solid;
-   padding-right: 5%;
-   padding-left: 5%;
-   border-block-start-color: black;
-   border-block-end-color: black;
-   text-align: center;
-   justify-content: space-evenly;
-   padding: 1em;
-   margin-left: 1.5em;
-   margin-right: 1.5em;
-}
-
-#fact{
-   padding-top: 1em;
-   padding-bottom: 1em;
-   font-size: 2em;
-}
-
-#share{
-   padding-bottom: 1em;
-   font-size: 1.75em;
-}
-
-#click{
-   font-size: 3em;
-}
-
-#myButton{
-   height: 75px;
-   width: 500px;
-   font-size: 35px;
-   margin-top: 1em;
-   margin-bottom: 0.5em;
-}
-
-ul{
-  list-style-type: none;
-  background-color:orange;
-  overflow: hidden;
-  padding-bottom: 1em;
   padding-top: 1em;
-  text-align: center
+  background-color: 
+#a4d5cb;
+  color:  
+navy;
+  text-align: right;
+  width: 100%;
+  padding-bottom: 1em;
 }
 
-li{
-   display: inline;
-}
-
-li a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.3em;
-  margin-top: 3em;
-  padding: 3em;
+.Portfolio {
   text-align: center;
-  justify-content: space-between;
+  padding-bottom: 0.5em;
 }
 
-li a:hover{
-  background-color: #ffce80 ;
+#title{
+  font-weight: 300 px;
+  font-size: 4em;
 }
 
-/* STYLE IMAGES */
+#header1{
+  font-weight: 300 px;
+  font-size: 2.5em;
+}
 
-/* STYLE NAV BAR */
+.home {
+  max-width: 20em;
+  max-height: 20em;
+  margin-left: 20%;
+  border: 0.5em solid 
+navy;
+  margin: auto;
+  }
 
-/* STYLE BUTTONS */
+footer {
+  text-align: center;
+  margin-top: 1em;
+  padding: 1.5em;
+  background-color:
+#a4d5cb;
+  color:
+navy;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-/* ADD MORE! */
+.headerPic {
+  width: 10em;
+  height: 15em;
+  border: 0.5em solid 
+white;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+  margin-left: 1em;
+}
+
+img {
+}
+Preview
+Preview
+
+Scroll to latest
+Saina's Website - Replit
